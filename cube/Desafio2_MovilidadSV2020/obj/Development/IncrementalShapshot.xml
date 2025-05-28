@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,35 +19,35 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>vOLSSQW0uWUD1GESTr3HV4GxpIA=27/5/2025 22:05:1127/5/2025 21:19:01</TimeStamp>
+        <TimeStamp>vOLSSQW0uWUD1GESTr3HV4GxpIA=27/5/2025 22:05:1128/5/2025 00:23:59</TimeStamp>
         <ID>
           <String>DESKTOP-R2CGIBTSQLSERVER</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>O5F70reXsE6Eny4D7BLGA/6SL+Q=27/5/2025 23:38:5927/5/2025 21:30:25</TimeStamp>
+        <TimeStamp>k6njTc2i9nqNdLMrOtZO4xlUwF4=28/5/2025 01:11:2128/5/2025 00:23:59</TimeStamp>
         <ID>
           <String>Movility COVID SV2020</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hHkckBCk3mnIeSPjjYduhI4TLoU=27/5/2025 23:38:5927/5/2025 20:46:43</TimeStamp>
+        <TimeStamp>J75GDfWst/q1QYVrV3mgUBNC2NY=28/5/2025 01:59:4128/5/2025 01:11:21</TimeStamp>
         <ID>
-          <String>Region</String>
+          <String>Dim Region</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6/PG8uOGEo3Ot1T0eLV2IKbVM7U=27/5/2025 23:21:4627/5/2025 23:03:58</TimeStamp>
+        <TimeStamp>YM06ZN0/qOqkMjoma7zBJCh7S4g=28/5/2025 02:00:5628/5/2025 01:18:43</TimeStamp>
         <ID>
           <String>Calendar2020</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>hUO3upPPl9BQ8GnKbT+oBqU/kAs=27/5/2025 22:52:0727/5/2025 21:10:57MAmeGO9N72nw0C6FQ4oWXpe67c4=27/5/2025 21:10:5727/5/2025 21:10:57</TimeStamp>
+        <TimeStamp>1AavqbeLZLaN79KH9ijkUveLqZk=28/5/2025 02:01:5028/5/2025 00:23:59nY4VSPNhy3ANBt1XUt4xUQnEV/4=28/5/2025 01:02:5128/5/2025 00:23:59</TimeStamp>
         <ID>
           <String>Movility COVID SV2020</String>
         </ID>
@@ -55,7 +55,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>4+o2HlJtHz5H2aTxonKO3e1MUns=27/5/2025 20:29:2227/5/2025 20:29:22</TimeStamp>
+      <TimeStamp>4+o2HlJtHz5H2aTxonKO3e1MUns=27/5/2025 20:29:2228/5/2025 00:23:59</TimeStamp>
       <ID>
         <String>Desafio2_MovilidadSV2020</String>
       </ID>
@@ -63,6 +63,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2025-05-28T05:39:30.106667Z</LastDeployed>
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2025-05-28T08:01:51.7Z</LastDeployed>
 </DeploymentSnapshot>

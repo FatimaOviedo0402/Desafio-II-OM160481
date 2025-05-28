@@ -12,7 +12,7 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Region</ID>
+        <ID>Dim Region</ID>
       </Dimension>
       <Dimension>
         <ID>Calendar2020</ID>

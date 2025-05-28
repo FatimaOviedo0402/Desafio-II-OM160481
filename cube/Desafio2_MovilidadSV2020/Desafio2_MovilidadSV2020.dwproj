@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Calendar2020.dim</Name>
-      <FullPath>Calendar2020.dim</FullPath>
+      <Name>Dim Region.dim</Name>
+      <FullPath>Dim Region.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Region Dpto.dim</Name>
-      <FullPath>Dim Region Dpto.dim</FullPath>
+      <Name>Calendar2020.dim</Name>
+      <FullPath>Calendar2020.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

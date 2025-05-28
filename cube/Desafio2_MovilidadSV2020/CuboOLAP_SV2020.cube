@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5b50480c-b670-468c-965d-319f8904e030" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7833f97-e5ca-437b-b496-5a1eaf9f347f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Movility COVID SV2020</ID>
   <Name>CuboOLAP_SV2020</Name>
   <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8447" scrolltop="-2527" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20135" y="10054" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8712" scrolltop="-3929" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20135" y="7488" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,13 +19,35 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="stg_mobility_sv" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3201" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="stg_mobility_sv (dbo)" left="-1436" top="-1508" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3201" height="5688" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000810c000088130000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000810c000038160000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
                 <property name="LogicalObject" value="dbo_stg_mobility_sv" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar2020 (dbo)" left="4056" top="515" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Calendar2020" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRegion" left="2909" top="-2489" logicalid="5" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimRegion" vartype="8" />
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
@@ -35,7 +57,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-      <Value>true</Value>
+      <Value>false</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
@@ -47,19 +69,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-8447</Value>
+      <Value>-8712</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2527</Value>
+      <Value>-3929</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-1436</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-2489</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,8 +90,61 @@
   </Annotations>
   <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ac4daa6a-faa9-48cc-90a6-6cc8d0562cd5">
+      <ID>Calendar2020</ID>
+      <Name>Calendar2020</Name>
+      <DimensionID>Calendar2020</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="11b3b5c5-fa46-4792-b661-d8ed16c629da">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2734cf1f-ea93-4688-b19b-fbf4ef7868b0">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe381f73-9a14-49b4-b240-9d5a8a6d846f">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d85895c2-a564-4721-ac21-002f2ef3e411">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf87b25b-35b2-49d6-a40f-e315623d54f0">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f7629b3-b652-4932-945a-a815d5077ee4">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3effcfac-6e6b-47d7-a474-c404f285cc2c">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f9669960-8c5b-4c97-b20f-f783490334a9">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="99b430d8-a4cd-4df1-8155-8279e7ff5776">
+      <ID>Dim Region</ID>
+      <Name>Dim Region</Name>
+      <DimensionID>Dim Region</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cfd2cde3-56ae-4ee3-bb19-b8355b99cc58">
+          <AttributeID>Cod Dpto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3af08f30-87c3-4136-a028-939f11792293">
+          <AttributeID>Dpto</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="2ee79cb8-886c-4ab9-8fb3-b7c52926b90a">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="d78fc99d-7af8-4f2f-b5a9-19e6fd03ccc2">
+    <MeasureGroup dwd:design-time-name="73f34944-3ab8-4c0e-b49e-3b48a325dbd7">
       <ID>Stg Mobility Sv</ID>
       <Name>Stg Mobility Sv</Name>
       <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -77,79 +152,137 @@
       <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="1b8bfe54-3033-451b-87d3-999adef37f6d">
+        <Measure dwd:design-time-name="ea592875-3615-4654-bae1-03fe9557a4db">
           <ID>Parks Pct</ID>
           <Name>Parks Pct</Name>
-          <Source dwd:design-time-name="c16f7825-d207-4eba-a0fd-0f56f1b1d995">
+          <Source dwd:design-time-name="c7f87d4e-b1c1-4e68-b6d8-66ae159d304b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ac1d9c0a-3d20-4a3e-94f5-5909239c8ebc">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e89e075a-80d5-48b1-8a14-33176c0aad0b">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>parks_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3384fd23-1972-438c-b878-250687b9fb65">
+        <Measure dwd:design-time-name="2f25483c-5663-4641-abad-bf1aab7de137">
           <ID>Retail Pct</ID>
           <Name>Retail Pct</Name>
-          <Source dwd:design-time-name="5247ac30-90e7-4798-9967-48d22dc1c063">
+          <Source dwd:design-time-name="6c3df70c-cfba-4a0d-be26-b648f621ed46">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="36550e5f-122e-41ed-a282-40568b620cfb">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fcaff816-cee3-47f1-b693-a74e63139bd6">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>retail_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ee90cbac-a6dc-4984-832e-b0fad6f73f86">
+        <Measure dwd:design-time-name="806a7d6b-2a61-4915-9bd3-fc434e82eeeb">
           <ID>Grocery Pct</ID>
           <Name>Grocery Pct</Name>
-          <Source dwd:design-time-name="2c109be4-ae04-4835-804f-80f1fd1a6484">
+          <Source dwd:design-time-name="9b7f76a3-7bc3-4845-8486-6f95179d3c9b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3326ad43-54f7-455d-ba3a-8017d37021b1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c74dd223-0332-40ef-a81c-898495e38524">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>grocery_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3fe689a1-52b6-40c5-a041-5abdeaf91640">
+        <Measure dwd:design-time-name="6460c42c-1565-4865-ab07-06c6c1c18cfd">
           <ID>Transit Pct</ID>
           <Name>Transit Pct</Name>
-          <Source dwd:design-time-name="00d43260-1f03-4e93-8cc8-f6f9f8a781bc">
+          <Source dwd:design-time-name="43dbabd1-142a-415d-9b70-5ce36a40ad6f">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c5436f25-bc94-4cd0-8331-b0af14427792">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="16df5cb0-a0ce-418e-bd17-ae625dc67641">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>transit_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c95bae38-64d9-4669-9df3-cd572be00ba1">
+        <Measure dwd:design-time-name="70f8b340-ca53-41b0-986b-8c983b14be96">
           <ID>Workplaces Pct</ID>
           <Name>Workplaces Pct</Name>
-          <Source dwd:design-time-name="fc13531c-2807-4e9e-be36-253e9377b98f">
+          <Source dwd:design-time-name="a1801b70-1572-4b24-8a7f-b4a9b57a4801">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c139541-a22b-4d26-96ba-7b6434744c9e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3180eae-e33d-4608-b277-d8f01f5d2b76">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>workplaces_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9f0eed0b-84b1-4cbd-8a7a-34c93b183537">
+        <Measure dwd:design-time-name="9dd9a574-773c-42c6-a516-35a8d5fdfff6">
           <ID>Residential Pct</ID>
           <Name>Residential Pct</Name>
-          <Source dwd:design-time-name="6b551ec9-4f24-422f-83cd-3e85701afeb9">
+          <Source dwd:design-time-name="36409018-33a9-48eb-baae-0f6b5b3f1b41">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a98aed3a-f3ba-45ff-bddf-aeedfe3d0b37">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="557e3799-add8-4634-af1d-f5835b958f4e">
               <TableID>dbo_stg_mobility_sv</TableID>
               <ColumnID>residential_pct</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="95b10625-0e42-4ff2-ab1b-d45ad4a3ddf1">
+          <ID>Retail Pct - Stg Mobility Sv</ID>
+          <Name>Retail Pct - Stg Mobility Sv</Name>
+          <Source dwd:design-time-name="3ba47221-bcce-4e3f-a314-91ae2748e95f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d5015866-4d5d-4854-a7cf-23e68e1a900b">
+              <TableID>dbo_stg_mobility_sv</TableID>
+              <ColumnID>retail_pct</ColumnID>
             </Source>
           </Source>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9a135d68-3664-4e2e-a150-097f38332a24">
+          <CubeDimensionID>Dim Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0b01f975-0a66-4e84-9fa2-f55f469da817">
+              <AttributeID>Cod Dpto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fd7d9b7b-a166-4ade-8162-8ee9a977b990">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96124149-a997-41a6-bd0a-7f89cdb9f677">
+                    <TableID>dbo_stg_mobility_sv</TableID>
+                    <ColumnID>cod_dpto</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c61ea6db-45e5-444e-a276-759e92daa433">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c2df693e-6d8e-4863-a410-44fa6703345a">
+                    <TableID>dbo_stg_mobility_sv</TableID>
+                    <ColumnID>dpto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e0f87a1a-622e-494a-b646-964618751452">
+          <CubeDimensionID>Calendar2020</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="174c394b-275a-4991-8ae3-683786a2a99d">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a62aceed-8eb3-42cd-bae4-21322af182fd">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b930a870-efba-453a-9544-d36357b1c105">
+                    <TableID>dbo_stg_mobility_sv</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="9b583453-dcb9-4363-a35f-fcbb930c38af">
+  <Source dwd:design-time-name="edb4fcd3-3202-4f73-a31f-2ddd04220f58">
     <DataSourceViewID>Movility COVID SV2020</DataSourceViewID>
   </Source>
 </Cube>
