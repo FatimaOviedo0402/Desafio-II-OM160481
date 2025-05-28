@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Desafio2_OM160481", "Desafio2_OM160481.dtproj", "{CFF71D70-2573-3AEA-4BCB-9BFE7B0DCFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF71D70-2573-3AEA-4BCB-9BFE7B0DCFAE}.Development|Default.ActiveCfg = Development
+		{CFF71D70-2573-3AEA-4BCB-9BFE7B0DCFAE}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEDDFE73-142D-4EE3-A5B1-67BF3D352BE7}
+	EndGlobalSection
+EndGlobal

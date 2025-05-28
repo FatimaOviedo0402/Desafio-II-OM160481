@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Desafio2_MovilidadSV2020", "Desafio2_MovilidadSV2020.dwproj", "{5D475670-9C5B-2EC0-02CD-E9E81EC7279C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D475670-9C5B-2EC0-02CD-E9E81EC7279C}.Development|Default.ActiveCfg = Development
+		{5D475670-9C5B-2EC0-02CD-E9E81EC7279C}.Development|Default.Build.0 = Development
+		{5D475670-9C5B-2EC0-02CD-E9E81EC7279C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0995AD74-4C19-4C2B-BA4A-BDBE9D4C8EFA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,178 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4fb4afcd-03fb-4328-947d-ed3bd46d7505" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Movility COVID SV2020</ID>
+  <Name>COVID SV2020</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="7" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6075" scrolltop="-5587" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20664" y="11377" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar2020" left="6201" top="0" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Calendar2020" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="stg_mobility_sv" left="0" top="0" logicalid="4" controlid="2" masterid="0" hint1="0" hint2="0" width="3201" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000810c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_stg_mobility_sv" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRegion_Dpto" left="4539" top="6495" logicalid="6" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1517" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000ed050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="DimRegion_Dpto" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-6075</DiagramViewPortLeft>
+            <DiagramViewPortTop>-5587</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DESKTOP-R2CGIBTSQLSERVER</DataSourceID>
+  <Schema>
+    <xs:schema id="Movility_x0020_COVID_x0020_SV2020" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Movility_x0020_COVID_x0020_SV2020" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="0e64f020-baea-4bc1-af38-0a92ff796333">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Calendar2020" msprop:DbSchemaName="dbo" msprop:design-time-name="b35b35f8-b256-44db-938a-e694d8ea5b2b" msprop:FriendlyName="Calendar2020" msprop:TableType="Table" msprop:DbTableName="Calendar2020">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="69a9f90b-76c0-49de-833a-b42f687c8961" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="69d360a7-c9e8-453f-8664-3d7ca9f30420" type="xs:int" minOccurs="0" />
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="9217b90f-bb3d-4524-a660-7a1efabb068f" type="xs:int" minOccurs="0" />
+                  <xs:element name="MonthName" msprop:FriendlyName="MonthName" msprop:DbColumnName="MonthName" msprop:design-time-name="a1114979-858e-4e35-8a02-d9c11fdc7d33" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MonthNumber" msprop:FriendlyName="MonthNumber" msprop:DbColumnName="MonthNumber" msprop:design-time-name="dff2a9c4-b014-4a00-b13e-c4fe0e18749e" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="3ce35eff-028d-4762-a56a-476fbb9f1de7" type="xs:int" minOccurs="0" />
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="c30462ba-7137-4497-b27e-60b54236e53f" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_stg_mobility_sv" msprop:DbSchemaName="dbo" msprop:design-time-name="0d7f784c-aebf-4065-bf36-5c8f60f7ed12" msprop:FriendlyName="stg_mobility_sv" msprop:TableType="Table" msprop:DbTableName="stg_mobility_sv">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dpto" msprop:FriendlyName="dpto" msprop:DbColumnName="dpto" msprop:design-time-name="efbeb0b6-9d4a-4bed-aab6-a89d3e1596d4" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cod_dpto" msprop:FriendlyName="cod_dpto" msprop:DbColumnName="cod_dpto" msprop:design-time-name="89f44dec-660b-4700-8391-2401c9adf286" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="mes" msprop:FriendlyName="mes" msprop:DbColumnName="mes" msprop:design-time-name="5d502d46-b2dd-41fe-870f-f6392c1f185d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="parks_pct" msprop:FriendlyName="parks_pct" msprop:DbColumnName="parks_pct" msprop:design-time-name="84e5d04e-9b48-4fb9-87ba-d80d61becf85" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="retail_pct" msprop:FriendlyName="retail_pct" msprop:DbColumnName="retail_pct" msprop:design-time-name="edc58c22-14be-4dbf-8613-220e77a11237" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="grocery_pct" msprop:FriendlyName="grocery_pct" msprop:DbColumnName="grocery_pct" msprop:design-time-name="e2c9c11b-bbea-4f6f-bb96-b60ded01ee9b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="transit_pct" msprop:FriendlyName="transit_pct" msprop:DbColumnName="transit_pct" msprop:design-time-name="20118472-aeff-4cd3-90e8-d6a24492aeaa" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="workplaces_pct" msprop:FriendlyName="workplaces_pct" msprop:DbColumnName="workplaces_pct" msprop:design-time-name="7e5fbc18-5948-48c9-aaef-d295183df683" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="residential_pct" msprop:FriendlyName="residential_pct" msprop:DbColumnName="residential_pct" msprop:design-time-name="9e9b5d3c-ca1b-4fb6-8cd0-c2079ad24619" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="dia" msprop:FriendlyName="dia" msprop:DbColumnName="dia" msprop:design-time-name="2f0db318-0ba5-461f-981b-66bac6bab725" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="DateKey" msdata:ReadOnly="true" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="ba2c0bb9-bb8a-468d-9fcf-687edd06987a" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DimRegion_Dpto" msprop:QueryBuilder="SpecificQueryBuilder" msprop:IsLogical="True" msprop:design-time-name="99ca19dc-daa4-4b53-a18e-f992b16b03e4" msprop:QueryDefinition="SELECT DISTINCT cod_dpto AS CodDpto, dpto AS Dpto&#xD;&#xA;FROM            dbo.stg_mobility_sv s&#xD;&#xA;WHERE        (dpto IS NOT NULL)" msprop:FriendlyName="DimRegion_Dpto" msprop:TableType="View" msprop:DbTableName="DimRegion_Dpto" msprop:Description="">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dpto" msprop:FriendlyName="Dpto" msprop:DbColumnName="Dpto" msprop:design-time-name="4c0dd2f8-9328-4c53-9175-2db863fe8680" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CodDpto" msprop:design-time-name="91224aed-0631-42f4-8b9b-b3a5edb8b7ce" msprop:DbColumnName="CodDpto" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Movility_x0020_COVID_x0020_SV2020 xmlns="" />
+  </Schema>
+</DataSourceView>
